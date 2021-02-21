@@ -1,0 +1,37 @@
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+<div class="container">
+    <div class="left">
+    <header class="text-center text-light my-4">
+      <h1 class="mb-4">Todo List</h1>
+      <p>Add tasks to your list by typing to the right and pressing Enter,you
+          may then view pending tasks below:</p>
+    </header>  
+    <ul class="list-group todos mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>First Task</span>
+        <span class="delete">×</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Second Task</span>
+        <span class="delete">×</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Third task</span>
+        <span class="delete">×</span>
+      </li>
+    </ul>
+    </div>
+    <div class="right">
+    <form class="add text-center my-4" align="left">
+      <input class="form-control m-auto" style="font-size:36px;color:grey;"type="text" placeholder="I have to..." name="add" />
+    </form>  
+</div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
